@@ -1,0 +1,168 @@
+html body {
+    background-color:rgba(10, 10, 12, 0.9);
+    color: rgb(241, 238, 233);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    display : flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+    padding:5px;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+header { 
+    height: 25%;
+    display: flex;
+    color:rgba(rgb(250, 249, 249));
+    justify-content: flex-end;
+    align-content: space-between;
+}
+main {
+    height: 60%;
+}
+
+#logogoogle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+}
+
+.search_barre {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    margin:auto;
+}
+.search_barre {
+    background-color: transparent; /* Couleur de fond transparente */
+    border: 2px solid #999; /* Bordure grise de 2 pixels */
+    border-radius: 20px; /* Rayon de courbure de 10 pixels */
+    width: 600px; /* Largeur de 200 pixels */
+    height: 48px; /* Hauteur de 100 pixels */
+    box-sizing: border-box;
+}
+
+.search_barre:hover {
+    background-color: #303134; /* Couleur de fond en survolant */
+}
+
+.search {
+    display: flex;
+    width: 100%; /* Largeur de 100% pour remplir la largeur du rectangle */
+    padding: 12px; /* Espacement intérieur de 12 pixels */
+    padding: 8px;
+    padding-left: 22px;
+    border: none; /* Pas de bordure */
+    outline: none; /* Pas d'effet de focus */
+    font-size: 16px; /* Taille de police de 16 pixels */
+    background-color: transparent; /* Couleur de fond transparente */
+    color: azure;
+}
+
+.search-input {
+    border: none;
+    padding: 4px 8px;
+    width: 460px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: azure;
+    box-sizing: border-box;
+}
+
+.search_left_icon {
+    height: 22px;
+    margin-right: 10px;
+    padding-top: 4px;
+}
+
+
+.search_right_icon {
+    height: 22px;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+
+.right-icons {
+    margin-left: auto;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding:20px;
+    font-size: 11px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 15%;
+    background-color: rgb(15, 15, 15);
+    padding:20px;
+    align-items:flex-start;
+    justify-content: space-between;
+    color:#999DA2;
+}
+
+footer a {
+    color:#999DA2;
+}
+
+
+.foot  {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#foothigh, 
+#footleft, 
+#footright {
+    display:flex;
+    align-items: center;
+}
+
+.menu {
+    visibility:hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #BDC1C6;
+    padding: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+.menu a {
+    display: block;
+    color: #999DA2;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.parametres + .menu:active,
+.parametres:focus + .menu {
+    visibility: visible;
+    background-color: rgba(10, 10, 12, 0.9);
+}
+
+.parametres:hover {
+    text-decoration:underline ;
+}
